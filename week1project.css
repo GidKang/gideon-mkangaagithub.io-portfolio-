@@ -57,23 +57,24 @@ nav{
     padding-top: 100px;
 }
 h1{
-    font-size: 36px;
+    font-size: 69px;
     font-weight: 600;
 }
 p{
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
 }
 .column{
     margin-top: 5%;
-    display: flexbox;
+    display: flex;
     justify-content: space-between;
 }
 .card{
     font-family: 'Poppins';
     flex-basis: 31%;
+    line-height: 1px;
     background: #fff3f3;
     background-blend-mode: lighten;
     border-radius: 10px;
@@ -109,15 +110,42 @@ h3{
 a{
     font-family: 'Poppins';
     font-weight: 600;
-    color: rgba(71, 0, 129, 0.753);
+    color: rgba(124, 184, 147, 0.753);
     text-decoration: none;
-    font-size: 30px;
+    font-size: 40px;
     margin: 10px 0;
     text-align: center;
 }
-p{
-    font-size: 16px;
+.projects h1{
+    font-size: 69px;
+    font-weight: 600;
+    color: white;
+}
+.projects p{
+    font-size: 20px;
+    width: 80%
+    text-align: center;
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
+    color: white;
+}
+.column{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.card2 p{
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.card2{
+    font-family: 'Poppins';
+    flex-basis: 31%;
+    margin-bottom: 5%;
+    margin-top: 10%
+    ;
 }
