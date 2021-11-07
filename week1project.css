@@ -68,7 +68,7 @@ p{
 }
 .column{
     margin-top: 5%;
-    display: flex;
+    display: flexbox;
     justify-content: space-between;
 }
 .card{
@@ -92,16 +92,19 @@ h3{
 }
 
 /*projects section*/
+.banner{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0,0,0,0.75)),url(space2.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
 .projects{
     width:80%;
     margin: auto;
     text-align: center;
-    padding-top: 50px;
-}
-.jheez{
-    margin-top: 5%;
-    display: inline-block;
-    justify-content: space-between;
+    padding-top: 100px;
 }
 a{
     font-family: 'Poppins';
@@ -112,17 +115,9 @@ a{
     margin: 10px 0;
     text-align: center;
 }
-.jard{
-    font-family: 'Poppins';
-    flex-basis: 31%;
-    background: #fff3f3;
-    background-blend-mode: lighten;
-    border-radius: 20px;
-    margin-bottom: 5%;
-    padding:20px 12px;
-    box-sizing: border-box;
-    transition: 0.69s;
-}
-.jard:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
 }
